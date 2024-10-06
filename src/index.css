@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    src: url(/src/assets/font/Montserrat-VariableFont_wght.ttf) format('ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    src: url(/src/assets/font/Inter-VariableFont_opsz\,wght.ttf) format('ttf');
+  }
+}
+
+/* .heading-second::after {
+  content: ' best selling products';
+  background: black;
+
+  background-clip: text;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: transparent;
+} */
+
+.text-stroke {
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
