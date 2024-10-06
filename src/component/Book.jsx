@@ -39,21 +39,21 @@ const Book = () => {
           <img src={book2} alt="book" className="w-36 sm:w-full h-full" />
         </div>
       </div>
-      <div className="grid grid-cols-3 items-center bg-[#EC3339] px-2 sm:px-4 xl:px-16 2xl:px-[148px] h-[577px]">
-        <h2 className="relative col-span-2 font-bold text-5xl text-white whitespace-pre-line">
+      <div className="grid grid-cols-1 md:grid-cols-3 items-center bg-[#EC3339] px-2 sm:px-4 xl:px-16 2xl:px-[148px] h-[577px] pt-10 md:pt-0">
+        <h2 className="relative md:col-span-2 font-bold text-2xl md:text-3xl xl:text-5xl font-montserrat text-white whitespace-pre-line">
           Our mission is to enlighten, entertain
           and empower current and future
           leaders around the world.
           <img
             src={quote}
             alt="quote"
-            className="absolute -top-36 -left-10"
+            className="absolute -top-10 md:-top-36 -left-2 xl:-left-10 w-16 h-16 md:w-auto md:h-auto"
           />
         </h2>
         <img
           src={people}
           alt="hero img"
-          className="absolute bottom-0 right-10 float-left shape"
+          className="xl:absolute bottom-0 right-10"
         />
       </div>
     </section>

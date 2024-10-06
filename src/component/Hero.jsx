@@ -8,7 +8,7 @@ const IMAGE = [img1, img2, img3, img4, img3];
 
 const Hero = () => {
   return (
-    <section className="px-2 md:px-6 xl:px-32 2xl:px-[148px] pt-28 md:pt-60 bg-red pb-24">
+    <section className="px-2 md:px-6 xl:px-32 2xl:px-[148px] pt-28 sm:pt-32 md:pt-60 bg-red pb-24">
       <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 lg:gap-3 -mt-10 ml-0 xl:ml-5 z-0">
         {IMAGE.map((item, i) => (
           <div key={i} className="font-inter text-white">
@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
         ))}
 
-        <img src={futureImg} alt="future bright image" className="absolute -top-6 md:-top-16 left-0 md:-left-4 -z-10 w-full md:w-3/4" />
+        <img src={futureImg} alt="future bright image" className="absolute -top-8 sm:-top-16 left-0 md:-left-4 -z-10 w-full md:w-3/4" />
       </div>
     </section>
   );

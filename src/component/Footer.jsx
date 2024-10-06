@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-black text-white px-2 xl:px-32 2xl:px-[148px] py-12">
       <div className='flex items-center pb-6 border-b-[1px] border-gray-400'>
         <img src={CLogo} alt="company logo" className='w-16 h-auto' />
-        <p className='text-white font-extrabold text-4xl md:text-5xl lg:text-6xl text-[90px] font-montserrat'>VTMERCH</p>
+        <p className='text-white font-extrabold text-3xl md:text-5xl lg:text-6xlxl:text-[90px] font-montserrat'>VTMERCH</p>
       </div>
 
       <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 sm:gap-5 md:gap-10">
